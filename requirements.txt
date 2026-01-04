@@ -3,6 +3,7 @@ numpy
 pandas
 matplotlib
 scikit-learn
-tensorflow
 yfinance
 joblib
+tensorflow==2.15.0
+keras==2.15.0
