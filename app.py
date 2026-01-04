@@ -14,7 +14,7 @@ st.set_page_config(page_title="Stock Forecast App", layout="wide")
 # -----------------------------
 # LOAD MODEL & SCALER
 # -----------------------------
-model = load_model("lstm_model.h5", compile=False)
+model = load_model("lstm_model.keras")
 scaler = joblib.load("scaler.pkl")
 
 WINDOW_SIZE = 60
